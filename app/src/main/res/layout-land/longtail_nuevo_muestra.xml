@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cab_longtail"
+
+        android:textSize="25dp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
+
+    <GridView
+        android:id="@+id/grid_longtail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="300dp"
+        android:horizontalSpacing="@dimen/espacio"
+        android:numColumns="auto_fit"
+        android:padding="@dimen/espacio"
+        android:verticalSpacing="@dimen/espacio" />
+</LinearLayout>
